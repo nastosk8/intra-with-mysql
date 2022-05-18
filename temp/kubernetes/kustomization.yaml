@@ -1,0 +1,20 @@
+resources:
+ - mysql-deployment.yaml
+ - mysql-storage.yaml
+ - secrets.yaml
+ - webapp.yaml
+ - ingress.yaml
+ - smb-share.yaml
+
+namespace: webapp
+
+configMapGenerator:
+- name: webpagefiles
+  files:
+  - index.php
+  - insert.php
+  - backround.png
+  - zoznam.php
+  - temp.php
+  - zoznamadmin.php
+  - style.css

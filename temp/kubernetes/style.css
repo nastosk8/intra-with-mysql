@@ -1,0 +1,68 @@
+.adminsite a:link, a:visited {
+background-color: #f44336;
+color: white;
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+      
+.adminsite a:hover, a:active {
+background-color: red;
+font-size: 120%;
+}
+
+.mainsites a:link, a:visited {
+background-color: #f44336;
+color: white;
+padding: 14px 25px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+}
+  
+.mainsites a:hover, a:active {
+background-color: red;
+font-size: 120%;
+}
+
+body {
+background-image: url("backround.png");
+background-color: #cccccc;
+}
+   
+table.datatable  {
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width: 100%;
+background-color: #cccccc; 
+margin-left:auto; 
+margin-right:auto;
+}
+   
+td, th {
+border: 1px solid #dddddd;
+text-align: center;
+padding: 8px;
+border-radius: 75%;
+}
+   
+tr:nth-child(even) {
+background-color: #dddddd;
+}
+   
+.printdata {
+margin: auto;
+width: 60%;
+border: 5px groove #0000e6;
+padding: 25px;
+}
+   
+.end {
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+.end p {
+font-family: arial, sans-serif;
+}
