@@ -19,6 +19,13 @@ spec:
         image: nastosk8/php1:l10
         ports:
         - containerPort: 80
+        volumeMounts:
+        - name: webpagefiles
+          mountPath: /var/www/html
+        volumes:
+        - name: webpagefiles
+          configMap:
+            name: webpagefiles
 ---
 
 kind: Service 
