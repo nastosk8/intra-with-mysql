@@ -16,22 +16,9 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: php1:l10
+        image: nastosk8/php1:l10
         ports:
         - containerPort: 80
-        volumeMounts:
-        - name: webpagefiles
-          mountPath: /var/www/html
-        # - name: smb-integration
-        #   mountPath: /data/webapp
-        #   readOnly: false
-      volumes:
-      - name: webpagefiles
-        configMap:
-          name: webpagefiles
-      # - name: smb-integration
-      #   persistentVolumeClaim:
-      #     claimName: smb-integration-claim
 ---
 
 kind: Service 

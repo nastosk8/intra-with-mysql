@@ -1,0 +1,17 @@
+resources:
+ - secrets.yaml
+ - webapp.yaml
+ - ingress.yaml
+
+namespace: webapp
+
+configMapGenerator:
+- name: webpagefiles
+  files:
+  - ../html/index.php
+  - ../html/insert.php
+  - ../images/backround.png
+  - ../html/zoznam.php
+  - ../html/temp.php
+  - ../html/zoznamadmin.php
+  - ../html/style.css

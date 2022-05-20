@@ -1,0 +1,8 @@
+resources:
+ - secrets.yaml
+ - mysql-deployment.yaml
+ - mysql-storage.yaml
+
+namespace: webapp
+
+
