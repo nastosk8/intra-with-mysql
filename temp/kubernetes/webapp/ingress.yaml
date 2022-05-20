@@ -7,7 +7,6 @@ metadata:
 spec:
   ingressClassName: internal-nginx
   rules:
-  - host: intranet.testdomain.local
   - http:
       paths:
       - path: /
