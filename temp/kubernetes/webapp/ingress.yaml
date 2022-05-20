@@ -15,4 +15,5 @@ spec:
         backend:
           service:
             name: webapp
-            port: 80
+            port:
+              number: 80
