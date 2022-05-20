@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: nastosk8/php1:l10
+        image: nastosk8/phpapache2:l10
         ports:
         - containerPort: 80
         volumeMounts:
