@@ -13,7 +13,7 @@ metadata:
   namespace: ingress-nginx
 spec:
   externalIPs:
-  - 192.168.5.75
+  - 192.168.5.65
   externalTrafficPolicy: Local
   ports:
   - appProtocol: http
